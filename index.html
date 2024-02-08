@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>mirahmad</title>
+</head>
+<body>
+     
+    <div id="calculator">
+        <input id="display" readonly>
+        <div id="keys">
+            <button onclick="appendToDisplay('+')" class="operator-btn" >+</button>
+            <button onclick="appendToDisplay('7')" id="num">7</button>
+            <button onclick="appendToDisplay('8')" id="num">8</button>
+            <button onclick="appendToDisplay('9')" id="num">9</button>
+            <button onclick="appendToDisplay('-')" class="operator-btn" >-</button>
+            <button onclick="appendToDisplay('4')" id="num">4</button>
+            <button onclick="appendToDisplay('5')" id="num">5</button>
+            <button onclick="appendToDisplay('6')" id="num">6</button>
+            <button onclick="appendToDisplay('*')" class="operator-btn" >x</button>
+            <button onclick="appendToDisplay('1')" id="num">1</button>
+            <button onclick="appendToDisplay('2')" id="num">2</button>
+            <button onclick="appendToDisplay('3')" id="num">3</button>
+            <button onclick="appendToDisplay('/')" class="operator-btn" >/</button>
+            <button onclick="appendToDisplay('0')" id="num">0</button>
+            <button onclick="appendToDisplay('.')">.</button>
+            <button onclick="calculate()">=</button>
+            <button onclick="clearDisplay()" class="operator-btn" >C</button>
+            <!-- <button onclick="appendToDisplay('%')" class="operator-btn" id="percent" >%</button> -->
+        </div>
+    </div>
+
+    <script src="./mr.js"></script>
+
+</body>
+</html>
